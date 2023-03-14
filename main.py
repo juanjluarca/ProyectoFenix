@@ -7,3 +7,10 @@ if n1 > mayor:
 elif n2 > mayor:
     mayor = n2
 print("el numero mayor es:",mayor)
+
+mayor %= 2
+
+if mayor == 0:
+   print('el numero es par')
+elif mayor >= 0:
+    print('el numero es impar proque el reciduo es:', mayor)
